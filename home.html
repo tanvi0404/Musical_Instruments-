@@ -160,3 +160,24 @@ header {
         <h3>Piano Kit</h3>
         <p>Elegant and timeless melody.</p>
       </div>
+      <script>
+    function exploreMore() {
+      alert("Explore section coming soon!");
+    }
+
+    // Replace login/signup with username
+    const user = localStorage.getItem('loggedInUser');
+    const userArea = document.getElementById('userArea');
+
+    if (user) {
+      userArea.innerHTML = `Welcome, <strong>${user}</strong> | <a href="#" onclick="logout()">Logout</a>`;
+    }
+
+    function logout() {
+      localStorage.removeItem('loggedInUser');
+      location.reload();
+    }
+  </script>
+
+</body>
+</html>
