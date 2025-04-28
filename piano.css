@@ -80,5 +80,32 @@ set {
   position: relative;
   overflow: hidden;
 }
+/* Add overlay on drum buttons */
+.drum::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Text stays above overlay */
+.drum span {
+  position: relative;
+  z-index: 1;
+}
+
+/* Background images */
+.w { background-image: url(./images/p1.png); }
+.a { background-image: url(./images/p2.png); }
+.s { background-image: url(./images/p3.png); }
+.d { background-image: url(./images/p4.png); }
+.j { background-image: url(./images/p5.png); }
+.k { background-image: url(./images/p7.png); }
+.l { background-image: url(./images/p6.png); }
+.m { background-image: url(./images/p6.png); }
+.n { background-image: url(./images/p4.png); }
+.o { background-image: url(./images/p3.png); }
+
+
 
 
