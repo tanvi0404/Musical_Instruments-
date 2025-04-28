@@ -105,6 +105,36 @@ set {
 .m { background-image: url(./images/p6.png); }
 .n { background-image: url(./images/p4.png); }
 .o { background-image: url(./images/p3.png); }
+/* Pressed state */
+.pressed {
+  box-shadow: 0 3px 5px #DBEDF3;
+  transform: scale(0.95);
+  background-color: white;
+  color: black;
+}
+
+/* Game Over screen */
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+/* Red text */
+.red {
+  color: red;
+}
+
+/* Light effect when clicked */
+.light {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, white, rgba(255, 255, 255, 0));
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: flash 0.5s ease-out forwards;
+  pointer-events: none;
+}
 
 
 
