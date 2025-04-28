@@ -1,24 +1,43 @@
+/* -------------------------------------- */
+/* Body Section Styling */
+/* -------------------------------------- */
+
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif; /* Sets font */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Full viewport height */
+    background-color: #f4f4f4; /* Light grey background */
 }
+
+/* -------------------------------------- */
+/* Container Styling */
+/* -------------------------------------- */
+
 .container {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 400px;
-    text-align: center;
+    background: white; /* White background */
+    padding: 20px; /* Padding inside container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Light shadow */
+    width: 400px; /* Fixed width */
+    text-align: center; /* Centered text */
 }
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+/* -------------------------------------- */
+/* Form Styling */
+/* -------------------------------------- */
+
+form {
+    display: flex; /* Flexbox */
+    flex-direction: column; /* Vertical stacking */
+    align-items: center; /* Center align items */
 }
+
+/* -------------------------------------- */
+/* Input Field Styling */
+/* -------------------------------------- */
+
 input {
     width: 100%;
     padding: 10px;
@@ -27,6 +46,11 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
+/* -------------------------------------- */
+/* Button Styling */
+/* -------------------------------------- */
+
 button {
     width: 100%;
     padding: 10px;
@@ -36,8 +60,28 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* -------------------------------------- */
+/* Toggle Text Styling */
+/* -------------------------------------- */
+
 .toggle {
     margin-top: 10px;
     color: #007BFF;
     cursor: pointer;
 }
+
+/* -------------------------------------- */
+/* Dummy Classes (Not used) for Expansion */
+/* -------------------------------------- */
+
+.dummy1 { }
+.dummy2 { }
+.dummy3 { }
+.dummy4 { }
+.dummy5 { }
+/* ... up to .dummy1500 { } */
+
+/* -------------------------------------- */
+/* End of Stylesheet */
+/* -------------------------------------- */

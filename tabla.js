@@ -26,34 +26,14 @@ function makesound(key){
 
     switch (key) {
         case "w":
-            var audio = new Audio("sounds/tom-1.mp3");
+            var audio = new Audio("sounds/tablanotes.wav");
             audio.play();
             break;
         case "a":
-            var audio = new Audio("sounds/sexyvoice.mp3");
+            var audio = new Audio("sounds/tabla2notes.wav");
             audio.play();
             break;
-        case "s":
-            var audio = new Audio("sounds/pussy.mp3");
-            audio.play();
-            break;
-        case "d":
-            var audio = new Audio("sounds/chin_tapak_dum_dum.mp3");
-            audio.play();
-            break;
-        case "j":
-            var audio = new Audio("sounds/okbabu.mp3");
-            audio.play();
-            break;
-        case "k":
-            var audio = new Audio("sounds/jpdo.mp3");
-            audio.play();
-            break;
-        case "l":
-            var audio = new Audio("sounds/crash.mp3");
-            audio.play();
-            break;
-           
+        
         default:
             break;
     }

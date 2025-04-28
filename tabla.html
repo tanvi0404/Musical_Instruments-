@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Meta information about the page -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla Kit</title>
+
+  <!-- External Stylesheet for custom styles -->
+  <link rel="stylesheet" href="tabla.css">
+
+  <!-- Google Font for custom typography -->
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  
+  <!-- Additional Metadata for the document -->
+  <meta name="description" content="A fun and interactive Tabla music kit for percussion enthusiasts.">
+  <meta name="author" content="COMETS">
+  <meta name="keywords" content="Tabla, Music, Percussion, Kit, Sounds, Drums">
+  
+  <!-- Favicon for the site -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Header Section for the page title -->
+  <header>
+    <h1 id="title">Tabla 🪇 Kit</h1>
+    <p class="intro-text">Explore the world of Tabla with these traditional sounds. Tap to play!</p>
+  </header>
+
+  <!-- Main Content Section where drum buttons are displayed -->
+  <div class="set">
+    <!-- Button for the first tabla sound -->
+    <button class="w drum" aria-label="Play tin sound">tin</button>
+    
+    <!-- Button for the second tabla sound -->
+    <button class="a drum" aria-label="Play tu sound">tu</button>
+
+    <!-- Adding more buttons for a richer experience -->
+    <button class="s drum" aria-label="Play sound 3">ka</button>
+    <button class="d drum" aria-label="Play sound 4">na</button>
+    <button class="f drum" aria-label="Play sound 5">te</button>
+    <button class="g drum" aria-label="Play sound 6">re</button>
+    <button class="h drum" aria-label="Play sound 7">da</button>
+    <button class="j drum" aria-label="Play sound 8">sa</button>
+
+    <!-- Visual space to separate the buttons from other content -->
+    <div class="spacer"></div>
+    
+    <!-- Button to reset all sound effects (optional functionality) -->
+    <button class="reset" aria-label="Reset all sounds">Reset Sounds</button>
+  </div>
+
+  <!-- Footer Section to credit the creators -->
+  <footer>
+    <p>Made with ❤️ by COMETS.</p>
+    <p>Explore more: <a href="https://www.comets.com" target="_blank">www.comets.com</a></p>
+  </footer>
+
+  <!-- Adding a link to additional sound resources or instructions -->
+  <div class="more-info">
+    <p>Want to learn more about Tabla rhythms? Visit our <a href="https://www.comets.com/tabla-guide" target="_blank">Tabla Guide</a> for detailed tutorials!</p>
+  </div>
+
+  <!-- JavaScript file to control sound and animations -->
+  <script src="tabla.js"></script>
+
+  <!-- Adding additional external JS libraries -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    // Optional: Using jQuery for simple animations and UI enhancements
+    $(document).ready(function() {
+      // On button click, animate the button to show feedback
+      $(".drum").click(function() {
+        $(this).addClass("pressed");
+        setTimeout(() => {
+          $(this).removeClass("pressed");
+        }, 100);
+      });
+
+      // Reset all buttons when 'Reset Sounds' button is clicked
+      $(".reset").click(function() {
+        $(".drum").removeClass("pressed");
+      });
+    });
+  </script>
+</body>
+
+</html>
