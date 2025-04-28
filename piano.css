@@ -135,6 +135,39 @@ set {
   animation: flash 0.5s ease-out forwards;
   pointer-events: none;
 }
+/* Firework explosion effect */
+.firework {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: explode 1s ease-out forwards;
+  pointer-events: none;
+}
+
+/* Animations */
+@keyframes flash {
+  0% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes explode {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(5);
+    opacity: 0;
+  }
 
 
 
