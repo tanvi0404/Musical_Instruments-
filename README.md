@@ -47,9 +47,13 @@ Web Audio API	Realistic sound generation & effects
 🌟 Star Contributors
 Role	Contributions
 Tanvi Thakur (Manager/Tester)	UX flow & cross-device testing
+
 Rijul Gupta (Dev)	Instrument logic & Web Audio API
+
 Priyanshu Rana (Dev)	Frontend design & responsiveness
+
 Pranav Chaudhary (Dev)	Performance optimization & latency fixes
+
 🚀 How to Contribute
 Fork the repo 🍴
 
