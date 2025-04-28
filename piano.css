@@ -52,4 +52,33 @@ footer {
   font-family: sans-serif;
   text-align: center;
 }
+set {
+  margin: 10% auto;
+}
+
+/* Drum button styling */
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 3rem;
+  font-family: 'Arvo', cursive;
+  font-weight: 900;
+  color: white;
+  text-shadow: 2px 2px #000;
+  border-radius: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
 
