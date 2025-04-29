@@ -113,6 +113,43 @@ body, html {
     pointer-events: none;
     z-index: 1000;
   }
+/* Background images for specific piano keys */
+.w {
+  background-image: url('./images/piano-c.png');
+}
+
+.a {
+  background-image: url('./images/piano-d.png');
+}
+
+.s {
+  background-image: url('./images/piano-e.png');
+}
+
+.j {
+  background-image: url('p1.png');
+}
+
+.k {
+  background-image: url('p2.png');
+}
+
+.l {
+  background-image: url('p4.png');
+}
+
+.m {
+  background-image: url('p2.png');
+}
+
+.n {
+  background-image: url('p3.png');
+}
+
+.o {
+  background-image: url('p1.png');
+}
+
   
   @keyframes explode {
     0% {
