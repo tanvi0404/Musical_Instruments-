@@ -105,6 +105,7 @@ set {
 .m { background-image: url(p6.png); }
 .n { background-image: url(p4.png); }
 .o { background-image: url(p3.png); }
+
 /* Pressed state */
 .pressed {
   box-shadow: 0 3px 5px #DBEDF3;
