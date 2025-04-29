@@ -22,15 +22,15 @@ document.addEventListener("keydown", function (event) {
 
 function makeSound(key) {
   var soundMap = {
-    "C": "./sounds/c.mp3",
-    "D": "./sounds/d.mp3",
-    "E": "./sounds/e.mp3",
-    "G": "./sounds/g.mp3",
-    "A": "./sounds/a.mp3",
-    "R": "./sounds/r.mp3",
-    "F": "./sounds/f.mp3",
-    "T": "./sounds/t.mp3",
-    "P": "./sounds/p.mp3"
+    "C": "key13.mp3",
+    "D": "key14.mp3",
+    "E": "key15.mp3",
+    "G": "key16.mp3",
+    "A": "key18.mp3",
+    "R": "key19.mp3",
+    "F": "key22.mp3",
+    "T": "key20.mp3",
+    "P": "key23.mp3"
   };
 
   if (soundMap[key]) {
