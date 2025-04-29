@@ -56,25 +56,25 @@ z-index: 1;
 
 /* Background images for specific keys */
 .w {
-background-image: url(./images/tom2.png);
+background-image: url(drum 1.jpeg);
 }
 .a {
-background-image: url(./images/tom3.png);
+background-image: url(drum2.jpeg);
 }
 .s {
-background-image: url(./images/tom4.png);
+background-image: url(drum 6.jpeg);
 }
 .d {
-background-image: url(./images/tom1.png);
+background-image: url(drum 5.jpeg);
 }
 .j {
-background-image: url(./images/snare.png);
+background-image: url(drum 3.jpeg);
 }
 .k {
-background-image: url(./images/kick.png);
+background-image: url(drum2.jpeg);
 }
 .l {
-background-image: url(./images/crash.png);
+background-image: url(drum 1.jpeg);
 }
 
   .pressed {
