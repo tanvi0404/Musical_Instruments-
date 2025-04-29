@@ -24,9 +24,9 @@ function showFireworks() {
 function makeSound(key) {
   let soundFile = "";
   switch (key) {
-    case "w": soundFile = "kick-bass.mp3"; break;
-    case "a": soundFile = "snare.mp3"; break;
-    case "s": soundFile = "sounds/pussy.mp3"; break;
+    case "w": soundFile = "bongo1.mp3"; break;
+    case "a": soundFile = "bongo2.mp3"; break;
+    case "s": soundFile = "bongo3.mp3"; break;
   }
 
   if (soundFile) {
