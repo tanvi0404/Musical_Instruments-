@@ -95,16 +95,16 @@ set {
 }
 
 /* Background images */
-.w { background-image: url(./images/p1.png); }
-.a { background-image: url(./images/p2.png); }
-.s { background-image: url(./images/p3.png); }
-.d { background-image: url(./images/p4.png); }
-.j { background-image: url(./images/p5.png); }
-.k { background-image: url(./images/p7.png); }
-.l { background-image: url(./images/p6.png); }
-.m { background-image: url(./images/p6.png); }
-.n { background-image: url(./images/p4.png); }
-.o { background-image: url(./images/p3.png); }
+.w { background-image: url(p1.png); }
+.a { background-image: url(p2.png); }
+.s { background-image: url(p3.png); }
+.d { background-image: url(p4.png); }
+.j { background-image: url(p5.png); }
+.k { background-image: url(p7.png); }
+.l { background-image: url(p6.png); }
+.m { background-image: url(p6.png); }
+.n { background-image: url(p4.png); }
+.o { background-image: url(p3.png); }
 /* Pressed state */
 .pressed {
   box-shadow: 0 3px 5px #DBEDF3;
