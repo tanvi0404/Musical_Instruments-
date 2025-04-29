@@ -26,11 +26,11 @@ function makesound(key){
 
     switch (key) {
         case "w":
-            var audio = new Audio("sounds/tablanotes.wav");
+            var audio = new Audio("tablanotes.wav");
             audio.play();
             break;
         case "a":
-            var audio = new Audio("sounds/tabla2notes.wav");
+            var audio = new Audio("tabla2notes.wav");
             audio.play();
             break;
         
