@@ -1,62 +1,157 @@
-body {
-    text-align: center;
+      body, html {
+    height: 100%;
     background-color: #2a2850;
+    overflow: hidden;
+    font-family: sans-serif;
+    color: white;
+  }
+
+  #container {
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .drum {
+outline: none;
+border: 10px solid #404B69;
+font-size: 3rem;
+font-family: 'Arvo', cursive;
+font-weight: 900;
+color: white;
+text-shadow: 2px 2px #000;
+border-radius: 15px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+width: 200px;
+height: 200px;
+text-align: center;
+margin: 10px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-color: #fff;
+cursor: pointer;
+position: relative;
+overflow: hidden;
+}
+
+/* Add a semi-transparent overlay for better text readability (optional) */
+.drum::after {
+content: "";
+position: absolute;
+inset: 0;
+background: rgba(0, 0, 0, 0.3);
+}
+
+/* Keep the text above the overlay */
+.drum span {
+position: relative;
+z-index: 1;
+}
+
+/* Background images for specific keys */
+.w {
+background-image: url(bongo1.jpeg);
+}
+.a {
+background-image: url(bongo2.jpeg);
+}
+.s {
+background-image: url(bongo3.jpeg);
+}
+  .pressed {
+    box-shadow: 0 3px 5px #fff;
+    transform: scale(0.95);
+    background-color: white;
+    color: black;
+  }
+
+  .title {
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .light {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, white, rgba(255, 255, 255, 0));
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: flash 0.5s ease-out forwards;
+    pointer-events: none;
+  }
+
+  @keyframes flash {
+    0% {
+      transform: scale(0.5);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(2);
+      opacity: 0;
+    }
   }
   
+  nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  #userArea a {
+    color: #00ffff;
+    cursor: pointer;
+  }
+
+  #userArea {
+    font-weight: bold;
+  }
+
+  .firework {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: explode 1s ease-out forwards;
+    pointer-events: none;
+  }
+  header {
+    background: rgba(0, 0, 0, 0.5);
+    
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @keyframes explode {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(5);
+      opacity: 0;
+    }
+  }
+  header h1 {
+    font-size: 2rem;
+    margin: 0;
+    font-family: 'Jokerman', cursive;
+  }
   h1 {
     font-size: 5rem;
     color: #DBEDF3;
     font-family: "Arvo", cursive;
     text-shadow: 3px 0 #DA0463;
   
-  }
-  
-  footer {
-    color: #DBEDF3;
-    font-family: sans-serif;
-  }
- .w {
-  background-image:url(./images/image.png)
-  }
-  
-  .a {
-    background-image:url(./images/tabla34.png)
-  }
-  .d {
-    background-image:url(./images/tabla34.png)
-  }
-  .set {
-    margin: 10% auto;
-  }
-  
-  .game-over {
-    background-color: red;
-    opacity: 0.8;
-  }
-  
-  .pressed {
-    box-shadow: 0 3px 4px 0 #DBEDF3;
-    opacity: 0.5;
-  }
-  
-  .red {
-    color: red;
-  }
- .drum {
-    padding: auto;
-    outline: none;
-    border: 10px solid #0c0000;
-    font-size: 5rem;
-    font-family: 'Arvo', cursive;
-    line-height: 2;
-    font-weight: 900;
-    color: #2f5f74;
-    text-shadow: 3px 0 #DBEDF3;
-    border-radius: 10px;
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    margin: 10px;
-    background-color: white;
   }
