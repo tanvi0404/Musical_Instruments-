@@ -115,15 +115,15 @@ body, html {
   }
 /* Background images for specific piano keys */
 .w {
-  background-image: url('./images/piano-c.png');
+  background-image: url('p4.png');
 }
 
 .a {
-  background-image: url('./images/piano-d.png');
+  background-image: url('p3.png');
 }
 
 .s {
-  background-image: url('./images/piano-e.png');
+  background-image: url('p4.png');
 }
 
 .j {
